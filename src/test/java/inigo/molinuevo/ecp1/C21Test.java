@@ -19,5 +19,11 @@ private C21 c21;
 		c21 = new C21();
 		assertEquals("m2", c21.m2());
 	}
+	
+	@Test
+	public void testM3() {
+		c21 = new C21();
+		assertEquals("m3", c21.m3());
+	}
 
 }
